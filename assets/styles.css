@@ -1,0 +1,303 @@
+@import url('https://fonts.googleapis.com/css?family=Ropa+Sans');
+
+@import url('https://fonts.googleapis.com/css?family=Cabin:500,600');
+/* =================================
+  Base Element Styles
+==================================== */
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'roboto', sans-serif;
+	line-height: 1.6;
+	margin: 0;
+	font-size: 100%;
+}
+
+ul {
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+}
+
+
+
+
+a {text-decoration: none;}
+
+p {
+	font-size: .95em;
+	margin-bottom: 1.5em;
+}
+
+h2,
+h3,
+h4 {
+	margin-top: 0;
+}
+
+
+
+
+img {
+	max-width: 100%;
+}
+
+
+
+/* =================================
+  Base Layout Styles
+==================================== */
+
+.wrapper {
+	display: flex;
+	flex-direction: column;
+}
+
+
+
+
+.nav-right {
+	 margin-right: 0 !important;
+}
+.navbar-collapse {
+    -webkit-justify-content: flex-end;
+    justify-content: flex-end;
+}
+
+.nav-logo {
+	width: 110px;
+	margin-left: 0.6em;
+}
+
+.navbar-toggler {
+	margin-top: 15px;
+	margin-right: 1.2em;
+}
+
+
+.nav-item {
+	margin: 10px;
+}
+
+ul li a {
+	text-transform: uppercase;
+	font-size: 13px;
+}
+
+nav li a:hover {
+	border-bottom: 2px solid #faff02;
+	margin-bottom:-3px;
+
+}
+/****************************
+	MAIN NAV
+***************************/
+
+
+
+
+
+
+
+
+
+
+/****************************
+	Layout Containers
+***************************/
+
+.read-col,
+.watch-col {
+
+}
+
+
+
+
+/****************************
+	Branding
+***************************/
+.uo-brand {
+	display: flex;
+	/*height: 250px;*/
+    flex-direction: column;
+	margin-bottom: 0px;
+	margin-top: -35px;
+}
+
+.uo-logotype {
+		margin: auto;
+		width: 25em;
+		/*margin-bottom: -45px;
+		margin-top: -10px;*/
+}
+
+.uo-tagline {
+	align-self: center;
+	margin-left: 3.5em;
+	margin-top: -75px;
+}
+
+
+/****************************
+    uo : 003 Night Watch
+***************************/
+
+.hero-h1, .hero-date {
+	font-family: 'ropa', sans-serif;
+	font-weight: 500;
+	text-transform: uppercase;
+
+}
+.hero-h1 {
+	font-size: 6.1vw;
+	/*position: absolute;
+	z-index: 1;*/
+	color: #fbfc0d;
+	/*top: -4.5em;
+	left: 0.5em;*/
+}
+
+
+
+.hero-title,
+.hero-text,
+.sub-hero-title {
+	position: relative;
+}
+
+.night-watch {
+	padding-top: 50px;
+	position: absolute;
+	top: 7.8em;
+	left: 4.1em;
+	z-index: 1;
+}
+
+.hero-date {
+	position: absolute;
+	right: -42em;
+	top: 23em;
+	color: #f6fffb;
+}
+
+.hero-date-h1 {
+	font-size: 10vw;
+}
+
+.nw-get-btn {
+	border-radius: 25px;
+	width: 7.2em;
+	height: 43px;
+	border-width: 2px;
+	color: #01fce7;
+	border-color: #01fce7;
+	margin-top: 10px;
+
+
+}
+
+
+
+/****************************
+ uo: 006 life in Violet Hill
+***************************/
+
+.vh-h1 {
+	font-size: 5vw;
+	color: #fbfc0d;
+}
+
+/*.sub-hero {
+	position: relative;
+}
+
+.sub-hero-title {
+	position: absolute;
+	left: 3.7em;
+	top: 3em;
+	}
+
+.sub-hero-date {
+	position: relative;;
+	left: 48em;
+	top: -10em;
+	z-index: 8;
+
+}*/
+
+.hero-date {
+
+}
+
+/****************************
+	Read
+***************************/
+
+
+.read-section,
+.watch-section {
+	padding: 50px;
+	height: 440px;
+	background-color: yellow;
+}
+
+
+/****************************
+	FOOTER nav
+***************************/
+
+.social-links img {
+	width:1.7em;
+
+
+}
+
+.main-footer {
+	background-color: #2d2d2d;
+	height: 120px;
+	/*color:#878787;*/
+	padding-right: 3em;
+	padding-left: 3em;
+}
+
+.footer-nav a{
+	color: #878787;
+	transition: 0.3s;
+}
+
+.footer-nav a:hover {
+	color: #13bea1;
+	text-decoration: none;
+}
+
+span {
+	font-size: .75em;
+	color: #c9c9c9;
+
+}
+
+/****************************
+	MEDIA QUERIES
+***************************/
+
+@media (min-width: 320px) {
+	/*.main-nav,
+	.top-nav {
+ 		display: flex;
+
+	}*/
+
+}
+
+@media (min-width: 1025px) {
+
+		/*.top-nav {
+			justify-content: flex-end;
+		}*/
+
+
+}
